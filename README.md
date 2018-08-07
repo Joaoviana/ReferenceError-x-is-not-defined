@@ -54,6 +54,16 @@ ___
 
 ## More instances
 
+```js
+let x = 0;
+	{
+	  x++;
+	  let x = 0;
+	  x++;
+  }
+```
+statements inside block scope cannot 'reach' global scope's parameters.
+[PythonTutor](http://www.pythontutor.com/javascript.html#code=let%20x%20%3D%200%3B%0A%7B%0A%20%20x%2B%2B%3B%0A%20%20let%20x%20%3D%200%3B%0A%20%20x%2B%2B%3B%0A%7D&curInstr=2&mode=display&origin=opt-frontend.js&py=js&rawInputLstJSON=%5B%5D)
 
 ongoing.  (almost) every time you come across it, copy-paste the code into this repo. if the code is long you can put it in a separate file.
 
